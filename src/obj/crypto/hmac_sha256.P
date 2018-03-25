@@ -1,0 +1,6 @@
+obj/crypto/hmac_sha256.o: crypto/hmac_sha256.cpp \
+ /home/alex/Marble2-update/src/crypto/hmac_sha256.h \
+ /home/alex/Marble2-update/src/crypto/sha256.h
+crypto/hmac_sha256.cpp :
+ /home/alex/Marble2-update/src/crypto/hmac_sha256.h :
+ /home/alex/Marble2-update/src/crypto/sha256.h :

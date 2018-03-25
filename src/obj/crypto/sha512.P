@@ -1,0 +1,6 @@
+obj/crypto/sha512.o: crypto/sha512.cpp \
+ /home/alex/Marble2-update/src/crypto/sha512.h \
+ /home/alex/Marble2-update/src/crypto/common.h
+crypto/sha512.cpp :
+ /home/alex/Marble2-update/src/crypto/sha512.h :
+ /home/alex/Marble2-update/src/crypto/common.h :
